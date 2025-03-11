@@ -27,7 +27,7 @@
 - $f_(x) = P_m(x) + R_m(x)$
 - el teorema me da el polinomio antes de calcular
 - $\forall x_0 \in [a,b] \exist$ $S(x)$ esta entre $x_0$ y $x$
-![alt text](/IMAGENES/teorema%20de%20tylor.png)
+![alt text](/NOTAS%20DE%20CLASE/IMAGENES/teorema%20de%20tylor.png)
 - en dicho punto yo conozco todas sus valores y sus derivadas
 - $P_m(x) = F(x_0) + f'(x_0) (x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + ... + \frac{f^m(x_0)}{m}(x-x_0)^m$
 
@@ -56,24 +56,24 @@ $$P_m(x) = \sum^{m}_{k=0}\frac{f^k(x_0)(x-x_0)^k}{k!}$$
 > quedando asi
 
 $$P_2(x) = 1 + 0 + \frac{-1}{2} (x-0)^2 = 1 - \frac{x^2}{2}$$
-![alt text](/IMAGENES/20250311-8.png)
+![alt text](/NOTAS%20DE%20CLASE//IMAGENES/20250311-8.png)
 
 > el polinomio de taylor de grado 2 es una parabola
 > esta aproxima muy bien a la funcion cerca del entorno del 0
-![alt text](/IMAGENES/20250311-1.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-1.png)
 
 > Tiene 4 raices por ser de grado 4
 > aproxima mejor a la funcion
-![alt text](/IMAGENES/20250311-2.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-2.png)
 
 > las cotas que estan en gris
 > las comparo con el error en azul
 > a veces exageran el valor, pero no importa, es mejor eso que nada
-![alt text](/IMAGENES/20250311-3.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-3.png)
 
 > vemos ahora la diferencia es mas chica
 > en los valores cercanos a 0, la cota es casi nula
-![alt text](/IMAGENES/20250311-4.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-4.png)
 
 ---
 
@@ -124,7 +124,7 @@ hay que hacer taylor con derivadas parciales y las voy a evaluar en ${\hat{x}}$ 
 
 > estoy estimando los errores con taylor de grado 1
 > si resolvemos nos va a dar una cota mejor que la calculada en el ejercicio anterior
-![alt text](/IMAGENES/20250311-5.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-5.png)
 
 ### Error relativo
 
@@ -142,7 +142,7 @@ Ejemplo:
 - $x_2=\hat{x_2} + \pm \Delta{x_2}$
 
 > calculo de error absoluto $e_y$
-![alt text](/IMAGENES/20250311-6.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-6.png)
 
 > cota del error relativo $\frac{e_y}{y}$
-![alt text](/IMAGENES/20250311-7.png)
+![alt text](//NOTAS%20DE%20CLASE/IMAGENES/20250311-7.png)
